@@ -2,6 +2,7 @@
 //function solution(s){
    return (s+"_").match(/.{2}/g)||[]
 }//
+
 function solution(str){
    let result = [];
   for (let i = 0; i < str.length; i += 2) {
